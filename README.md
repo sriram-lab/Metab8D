@@ -1,4 +1,5 @@
 # Recon8D: A metabolic regulome network from oct-omics and machine learning
+<img width="3000" height="2100" alt="Recon8D_icon" src="https://github.com/user-attachments/assets/ea749f9e-e08f-438c-be66-6a1c4fc416da" />
 Recon8D utilizes eight omics classes (genomics (CNV and mutations), histone PTMs, DNA methylation, transcriptomics, RNA splicing, miRNA, lncRNA, proteomics, and phosphoproteomics) to predict metabolomic variation across cancer lines from the Cancer Cell Line Encyclopedia, thereby inferring a multiomic metabolic regulatory network. 
 
 File descriptions
