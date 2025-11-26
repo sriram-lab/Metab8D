@@ -1,4 +1,4 @@
-# Recon8D: A metabolic regulome network from oct-omics and machine learning
+# Metab8D: A metabolic regulome network from oct-omics and machine learning
 <img width="400" height="400" alt="Recon8D_icon (1)" src="https://github.com/user-attachments/assets/10165d98-e7af-4dac-b2d5-e930bb20952b" />
 
 ## Introduction
@@ -7,19 +7,19 @@ Metabolite variation across cells may arise due to differences in regulation at 
 
 ## Methods
 
-As outlined in the ML_function.ipynb file, Recon8D network generation involves training ML models, assessing their accuracy, and obtaining feature importances thereof. This process is repeated for each individual omics input. An example of model generation is provided at the bottom of the ML_function.ipynb file using the histone PTM data. A requirements.txt file is provided, specifying all necessary packages for running this code. 
+As outlined in the ML_function.ipynb file, Metab8D network generation involves training ML models, assessing their accuracy, and obtaining feature importances thereof. This process is repeated for each individual omics input. An example of model generation is provided at the bottom of the ML_function.ipynb file using the histone PTM data. A requirements.txt file is provided, specifying all necessary packages for running this code. 
 
 ## Results
 
-The resultant proposed regulome network can be found in the Recon8D_network.xlsx file, where the top 20 features for all 2,025 trained metabolite models, along with their respective confidence scores, may be found. Features with high confidence scores and no previously identified mechanistic relationship should be prioritized for further study. 
+The resultant proposed regulome network can be found in the Metab8D_network.xlsx file, where the top 20 features for all 2,025 trained metabolite models, along with their respective confidence scores, may be found. Features with high confidence scores and no previously identified mechanistic relationship should be prioritized for further study. 
 
 ## Conclusions
 
-By comparing accuracies and assessing feature importance scores from multiomic inputs, Recon8D proposes systems-level relationships between omics features and metabolites across the CCLE cell line panel, and validates such relationships in independent data. 
+By comparing accuracies and assessing feature importance scores from multiomic inputs, Metab8D proposes systems-level relationships between omics features and metabolites across the CCLE cell line panel, and validates such relationships in independent data. 
 
 ## File descriptions
 
-Recon8D_network.xlsx: Top 20 features for 225 RF metabolite models from 9 omics inputs along with confidence scores (0 through 8) based on the number of controls (out of 8 experiments) for which each feature appeared in the top 20 most imoprtant features.
+Metab8D_network.xlsx: Top 20 features for 225 RF metabolite models from 9 omics inputs along with confidence scores (0 through 8) based on the number of controls (out of 8 experiments) for which each feature appeared in the top 20 most imoprtant features.
 
 ML_function.ipynb: ML script for random forests, XGBoost, ridge regression, and lasso regression, as well as feature importance generation. Includes example code for using histone PTM data as input. 
 
