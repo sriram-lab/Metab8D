@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Metabolite variation across cells may arise due to differences in regulation at the transcriptional, post-transcriptional, translational, and post-translational levels. Recon8D utilizes eight omics classes (genomics (CNV and mutations), histone PTMs, DNA methylation, transcriptomics, RNA splicing, miRNA, lncRNA, proteomics, and phosphoproteomics) to predict metabolomic variation across cancer cell lines from the Cancer Cell Line Encyclopedia, thereby inferring a multiomic metabolic regulatory network. This repository contains the machine learning workflow Recon8D employs to assess the relationship between features and their respective predicted metabolites. The primary output for this work is captured in the Recon8D_network.xlsx file, which contains the top 20 features in predicting each metabolite across 9 omics datasets. 
+Metabolite variation across cells may arise due to differences in regulation at the transcriptional, post-transcriptional, translational, and post-translational levels. Metab8D utilizes eight omics classes (genomics (CNV and mutations), histone PTMs, DNA methylation, transcriptomics, RNA splicing, miRNA, lncRNA, proteomics, and phosphoproteomics) to predict metabolomic variation across cancer cell lines from the Cancer Cell Line Encyclopedia, thereby inferring a multiomic metabolic regulatory network. This repository contains the machine learning workflow Metab8D employs to assess the relationship between features and their respective predicted metabolites. The primary output for this work is captured in the Metab8D_network_Supplemental_Table_9.xlsx file, which contains the top 20 features in predicting each metabolite across 9 omics datasets. 
 
 ## Methods
 
