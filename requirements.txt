@@ -302,7 +302,7 @@ ruamel.yaml.clib @ file:///C:/b/abs_5fk8zi6n09/croot/ruamel.yaml.clib_1727769837
 ruff @ file:///C:/b/abs_6dm5slwq6g/croot/ruff_1750775626108/work
 s3fs @ file:///C:/b/abs_ddtjx92ddb/croot/s3fs_1724924140381/work
 scikit-image @ file:///C:/b/abs_85dh_ywewv/croot/scikit-image_1726762076100/work
-scikit-learn==1.4.0
+scikit-learn==1.5.0
 scikit-learn-intelex==2025.4.0
 scipy @ file:///C:/b/abs_efv75hqhju/croot/scipy_1717521501389/work/dist/scipy-1.13.1-cp312-cp312-win_amd64.whl#sha256=b29dba691773ea983857b31cad894f31623348583937b6f03783facfd7abc734
 Scrapy @ file:///C:/b/abs_b407wrcuij/croot/scrapy_1708714755460/work
