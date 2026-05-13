@@ -1,4 +1,4 @@
-# Metab8D: A metabolic regulome network from oct-omics and machine learning
+# Metab8D: A metabolic regulome network from multiomics and machine learning
 <img width="400" height="400" alt="Recon8D_icon (3)" src="https://github.com/user-attachments/assets/d18f1913-a5e9-4e98-a1f5-dd427094625f" />
 
 ## Introduction
